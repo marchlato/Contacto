@@ -10,6 +10,18 @@
     android:background="@color/fondo"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tvvvDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Registrar Datos"
+        android:padding="5dp"
+        android:paddingTop="10dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
     <EditText
         android:id="@+id/etNombre"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
